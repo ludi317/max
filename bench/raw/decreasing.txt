@@ -1,0 +1,48 @@
+goos: darwin
+goarch: arm64
+pkg: github.com/ludi317/max
+BenchmarkFn
+BenchmarkFn/len=100000
+BenchmarkFn/len=100000/name=if_continue
+BenchmarkFn/len=100000/name=if_continue-10         	   35876	     31694 ns/op
+BenchmarkFn/len=100000/name=if_continue-10         	   37656	     32091 ns/op
+BenchmarkFn/len=100000/name=if_continue-10         	   37753	     31723 ns/op
+BenchmarkFn/len=100000/name=if_continue-10         	   37568	     31674 ns/op
+BenchmarkFn/len=100000/name=if_continue-10         	   37813	     31701 ns/op
+BenchmarkFn/len=100000/name=if_continue-10         	   37984	     31713 ns/op
+BenchmarkFn/len=100000/name=if_max
+BenchmarkFn/len=100000/name=if_max-10              	   18896	     63658 ns/op
+BenchmarkFn/len=100000/name=if_max-10              	   18838	     63429 ns/op
+BenchmarkFn/len=100000/name=if_max-10              	   18870	     63429 ns/op
+BenchmarkFn/len=100000/name=if_max-10              	   18914	     63351 ns/op
+BenchmarkFn/len=100000/name=if_max-10              	   18902	     63563 ns/op
+BenchmarkFn/len=100000/name=if_max-10              	   18763	     64558 ns/op
+BenchmarkFn/len=100000/name=cheat_max
+BenchmarkFn/len=100000/name=cheat_max-10           	   37209	     32076 ns/op
+BenchmarkFn/len=100000/name=cheat_max-10           	   37735	     31840 ns/op
+BenchmarkFn/len=100000/name=cheat_max-10           	   37695	     31736 ns/op
+BenchmarkFn/len=100000/name=cheat_max-10           	   37720	     31653 ns/op
+BenchmarkFn/len=100000/name=cheat_max-10           	   37838	     31708 ns/op
+BenchmarkFn/len=100000/name=cheat_max-10           	   38072	     31657 ns/op
+BenchmarkFn/len=100000/name=if_min
+BenchmarkFn/len=100000/name=if_min-10              	   18948	     63317 ns/op
+BenchmarkFn/len=100000/name=if_min-10              	   18933	     64913 ns/op
+BenchmarkFn/len=100000/name=if_min-10              	   18770	     63040 ns/op
+BenchmarkFn/len=100000/name=if_min-10              	   18568	     63583 ns/op
+BenchmarkFn/len=100000/name=if_min-10              	   18836	     63861 ns/op
+BenchmarkFn/len=100000/name=if_min-10              	   18956	     64045 ns/op
+BenchmarkFn/len=100000/name=cheat_min
+BenchmarkFn/len=100000/name=cheat_min-10           	   37352	     31751 ns/op
+BenchmarkFn/len=100000/name=cheat_min-10           	   37515	     31792 ns/op
+BenchmarkFn/len=100000/name=cheat_min-10           	   37600	     31961 ns/op
+BenchmarkFn/len=100000/name=cheat_min-10           	   37335	     31784 ns/op
+BenchmarkFn/len=100000/name=cheat_min-10           	   37520	     31920 ns/op
+BenchmarkFn/len=100000/name=cheat_min-10           	   37713	     32044 ns/op
+BenchmarkFn/len=100000/name=if_pair
+BenchmarkFn/len=100000/name=if_pair-10             	   16626	     71041 ns/op
+BenchmarkFn/len=100000/name=if_pair-10             	   16780	     71754 ns/op
+BenchmarkFn/len=100000/name=if_pair-10             	   16879	     71344 ns/op
+BenchmarkFn/len=100000/name=if_pair-10             	   16742	     71840 ns/op
+BenchmarkFn/len=100000/name=if_pair-10             	   16960	     71551 ns/op
+BenchmarkFn/len=100000/name=if_pair-10             	   16615	     72357 ns/op
+PASS

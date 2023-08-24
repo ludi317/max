@@ -1,0 +1,20 @@
+goos: darwin
+goarch: arm64
+pkg: github.com/ludi317/max
+BenchmarkFn
+BenchmarkFn/len=100000
+BenchmarkFn/len=100000/name=if_max_min
+BenchmarkFn/len=100000/name=if_max_min-10         	   18327	     64631 ns/op
+BenchmarkFn/len=100000/name=if_max_min-10         	   18334	     65922 ns/op
+BenchmarkFn/len=100000/name=if_max_min-10         	   18493	     64579 ns/op
+BenchmarkFn/len=100000/name=if_max_min-10         	   18537	     65185 ns/op
+BenchmarkFn/len=100000/name=if_max_min-10         	   18849	     64986 ns/op
+BenchmarkFn/len=100000/name=if_max_min-10         	   18475	     64983 ns/op
+BenchmarkFn/len=100000/name=if_max
+BenchmarkFn/len=100000/name=if_max-10             	   18602	     64506 ns/op
+BenchmarkFn/len=100000/name=if_max-10             	   18560	     64552 ns/op
+BenchmarkFn/len=100000/name=if_max-10             	   18450	     64764 ns/op
+BenchmarkFn/len=100000/name=if_max-10             	   18600	     64850 ns/op
+BenchmarkFn/len=100000/name=if_max-10             	   18552	     64684 ns/op
+BenchmarkFn/len=100000/name=if_max-10             	   18547	     64677 ns/op
+PASS

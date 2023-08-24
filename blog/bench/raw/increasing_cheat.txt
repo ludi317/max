@@ -1,0 +1,19 @@
+goos: darwin
+goarch: arm64
+pkg: github.com/ludi317/max/blog
+BenchmarkFn
+BenchmarkFn/name=if_max_lol
+BenchmarkFn/name=if_max_lol-10         	   36842	     31717 ns/op
+BenchmarkFn/name=if_max_lol-10         	   36988	     32653 ns/op
+BenchmarkFn/name=if_max_lol-10         	   31552	     31747 ns/op
+BenchmarkFn/name=if_max_lol-10         	   37718	     31677 ns/op
+BenchmarkFn/name=if_max_lol-10         	   37852	     31625 ns/op
+BenchmarkFn/name=if_max_lol-10         	   38000	     31632 ns/op
+BenchmarkFn/name=cheat_max
+BenchmarkFn/name=cheat_max-10          	   37941	     31606 ns/op
+BenchmarkFn/name=cheat_max-10          	   37903	     31632 ns/op
+BenchmarkFn/name=cheat_max-10          	   37572	     31633 ns/op
+BenchmarkFn/name=cheat_max-10          	   38377	     31417 ns/op
+BenchmarkFn/name=cheat_max-10          	   37933	     31605 ns/op
+BenchmarkFn/name=cheat_max-10          	   37874	     31826 ns/op
+PASS

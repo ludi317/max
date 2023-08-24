@@ -1,0 +1,27 @@
+goos: darwin
+goarch: arm64
+pkg: github.com/ludi317/max
+BenchmarkFn
+BenchmarkFn/len=100000
+BenchmarkFn/len=100000/name=if_continue
+BenchmarkFn/len=100000/name=if_continue-10         	   24490	     47477 ns/op
+BenchmarkFn/len=100000/name=if_continue-10         	   25309	     47488 ns/op
+BenchmarkFn/len=100000/name=if_continue-10         	   25228	     48206 ns/op
+BenchmarkFn/len=100000/name=if_continue-10         	   25243	     49175 ns/op
+BenchmarkFn/len=100000/name=if_continue-10         	   25180	     47707 ns/op
+BenchmarkFn/len=100000/name=if_continue-10         	   25252	     47594 ns/op
+BenchmarkFn/len=100000/name=if_max
+BenchmarkFn/len=100000/name=if_max-10              	   18951	     63337 ns/op
+BenchmarkFn/len=100000/name=if_max-10              	   18720	     63345 ns/op
+BenchmarkFn/len=100000/name=if_max-10              	   18904	     63244 ns/op
+BenchmarkFn/len=100000/name=if_max-10              	   18892	     63297 ns/op
+BenchmarkFn/len=100000/name=if_max-10              	   18925	     63362 ns/op
+BenchmarkFn/len=100000/name=if_max-10              	   18894	     63473 ns/op
+BenchmarkFn/len=100000/name=cheat_max
+BenchmarkFn/len=100000/name=cheat_max-10           	   37681	     31682 ns/op
+BenchmarkFn/len=100000/name=cheat_max-10           	   37844	     31731 ns/op
+BenchmarkFn/len=100000/name=cheat_max-10           	   37713	     31592 ns/op
+BenchmarkFn/len=100000/name=cheat_max-10           	   37942	     31716 ns/op
+BenchmarkFn/len=100000/name=cheat_max-10           	   37876	     31692 ns/op
+BenchmarkFn/len=100000/name=cheat_max-10           	   37909	     32004 ns/op
+PASS

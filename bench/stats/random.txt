@@ -1,0 +1,6 @@
+goos: darwin
+goarch: arm64
+pkg: github.com/ludi317/max
+                 │ if_max_min  │            if_max            │
+                 │   sec/op    │   sec/op     vs base         │
+Fn/len=100000-10   64.98µ ± 1%   64.68µ ± 0%  ~ (p=0.132 n=6)

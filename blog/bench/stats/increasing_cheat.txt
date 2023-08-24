@@ -1,0 +1,6 @@
+goos: darwin
+goarch: arm64
+pkg: github.com/ludi317/max/blog
+      │ if_max_lol  │          cheat_max           │
+      │   sec/op    │   sec/op     vs base         │
+Fn-10   31.70µ ± 3%   31.62µ ± 1%  ~ (p=0.145 n=6)

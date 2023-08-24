@@ -1,0 +1,6 @@
+goos: darwin
+goarch: arm64
+pkg: github.com/ludi317/max
+                 │ if_continue │               if_max               │             cheat_max              │
+                 │   sec/op    │   sec/op     vs base               │   sec/op     vs base               │
+Fn/len=100000-10   47.65µ ± 3%   63.34µ ± 0%  +32.93% (p=0.002 n=6)   31.70µ ± 1%  -33.47% (p=0.002 n=6)
