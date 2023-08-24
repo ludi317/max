@@ -1,4 +1,4 @@
-
+See https://medium.com/@ludirehak/printing-lol-doubled-the-speed-of-my-go-code-e32e02fc3f92 for a walkthrough and discussion.
 
 
 
